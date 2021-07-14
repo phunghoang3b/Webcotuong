@@ -19,22 +19,22 @@ const tot_den3 = new pieces("tot_den", "b", "/Content/imageco/Tot_den.png", new 
 const tot_den4 = new pieces("tot_den", "b", "/Content/imageco/Tot_den.png", new Position(639,204));
 const tot_den5 = new pieces("tot_den", "b", "/Content/imageco/Tot_den.png", new Position(776,204));
 //do
-const tot_do1 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(235,405));
-const tot_do2 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(371,405));
-const tot_do3 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(505,405));
-const tot_do4 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(639,405));
-const tot_do5 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(776,405));
-const phao_do1 = new pieces("phao_do", "r", "/Content/imageco/Phao_do.png", new Position(303,474));
-const phao_do2 = new pieces("phao_do", "r", "/Content/imageco/Phao_do.png", new Position(706,474));
-const xe_do1 = new pieces("xe_do1", "r", "/Content/imageco/Xe_do.png", new Position(235,610));
-const ma_do1 = new pieces("ma_do1", "r", "/Content/imageco/Ma_do.png", new Position(303,610));
+const tot_do1 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(236,408));
+const tot_do2 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(371,408));
+const tot_do3 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(504,408));
+const tot_do4 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(638,408));
+const tot_do5 = new pieces("tot_do", "r", "/Content/imageco/Tot_do.png", new Position(773,408));
+const phao_do1 = new pieces("phao_do", "r", "/Content/imageco/Phao_do.png", new Position(304,475));
+const phao_do2 = new pieces("phao_do", "r", "/Content/imageco/Phao_do.png", new Position(705,475));
+const xe_do1 = new pieces("xe_do1", "r", "/Content/imageco/Xe_do.png", new Position(236,610));
+const ma_do1 = new pieces("ma_do1", "r", "/Content/imageco/Ma_do.png", new Position(304,610));
 const voi_do1 = new pieces("voi_do1", "r", "/Content/imageco/Voi_do.png", new Position(371,610));
-const si_do1 = new pieces("si_do1", "r", "/Content/imageco/Si_do.png", new Position(439,610));
-const tuong_do = new pieces("tuong_do", "r", "/Content/imageco/Tuong_do.png", new Position(505,610));
-const si_do2 = new pieces("si_do1", "r", "/Content/imageco/Si_do.png", new Position(573,610));
-const voi_do2 = new pieces("voi_do1", "r", "/Content/imageco/Voi_do.png", new Position(639,610));
-const ma_do2 = new pieces("ma_do1", "r", "/Content/imageco/Ma_do.png", new Position(706,610));
-const xe_do2 = new pieces("xe_do1", "r", "/Content/imageco/Xe_do.png", new Position(776,610));
+const si_do1 = new pieces("si_do1", "r", "/Content/imageco/Si_do.png", new Position(438,610));
+const tuong_do = new pieces("tuong_do", "r", "/Content/imageco/Tuong_do.png", new Position(504,610));
+const si_do2 = new pieces("si_do1", "r", "/Content/imageco/Si_do.png", new Position(572,610));
+const voi_do2 = new pieces("voi_do1", "r", "/Content/imageco/Voi_do.png", new Position(638,610));
+const ma_do2 = new pieces("ma_do1", "r", "/Content/imageco/Ma_do.png", new Position(705,610));
+const xe_do2 = new pieces("xe_do1", "r", "/Content/imageco/Xe_do.png", new Position(773,610));
 
 const mang = [xe_den1,ma_den1,voi_den1,si_den1,tuong,si_den2,voi_den2,ma_den2,xe_den2,phao_den1,phao_den2,tot_den1,tot_den2,tot_den3,tot_den4,
     tot_den5, tot_do1,tot_do2,tot_do3,tot_do4,tot_do5,phao_do1,phao_do2,xe_do1,ma_do1,voi_do1,si_do1,tuong_do,si_do2,voi_do2,ma_do2,xe_do2

@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "login";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -24,13 +24,13 @@
 <div class="bg-modal">
     <div class="modal-content">
         <div class="close" style="font-weight: bold; color: white;">+</div>
-        <img src="~/Content/image/giacatluong.png" alt="">            
-            @using (Html.BeginForm("login", "Nguoidung", FormMethod.Post,new { enctype = "multipart/form-data"}))
-             {
-                <input type="text" name="username" placeholder="Tên đăng nhập">
-                <input type="password" name="password" placeholder="Mật khẩu" id="password">
-                <div id="toggle" onclick="showHide();"></div>
-                <script type="text/javascript">
+        <img src="~/Content/image/giacatluong.png" alt="">
+        @using (Html.BeginForm("login", "Nguoidung", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <input type="text" name="username" placeholder="Tên đăng nhập">
+            <input type="password" name="password" placeholder="Mật khẩu" id="password">
+            <div id="toggle" onclick="showHide();"></div>
+            <script type="text/javascript">
                         const password = document.getElementById('password');
                         const toggle = document.getElementById('toggle');
                         function showHide(){
@@ -43,9 +43,9 @@
                                 toggle.classList.remove('hide')
                             }
                         }
-                </script>
-                <button type="submit" id="buttondn">ĐĂNG NHẬP</button>
-             }
+            </script>
+            <button type="submit" id="buttondn">ĐĂNG NHẬP</button>
+        }
     </div>
 </div>
 <!-- Model Popup Register -->

@@ -6,13 +6,13 @@ function getMove(name, kind, position){
     if(name == "tot_do" && kind == "r"){
         var default_position = new Array();
         default_position.push(
-            new Position(x, y-67)           
+            new Position(x, y-66)           
         );
         default_position.forEach(e => {
             if (e.y < 271) {
                 accept_position.push(e);
-                accept_position.push(new Position(x + 67, y));
-                accept_position.push(new Position(x - 67, y));
+                accept_position.push(new Position(x + 66, y));
+                accept_position.push(new Position(x - 66, y));
             }
             else {
                 accept_position.push(e);

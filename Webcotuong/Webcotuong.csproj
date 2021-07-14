@@ -148,19 +148,26 @@
     <Content Include="Content\imageco\b_box.png" />
     <Content Include="Content\imageco\Ma_den.png" />
     <Content Include="Content\imageco\Ma_do.png" />
+    <Content Include="Content\imageco\Ma_do_fix.png" />
     <Content Include="Content\imageco\Phao_den.png" />
     <Content Include="Content\imageco\Phao_do.png" />
+    <Content Include="Content\imageco\Phao_do_fix.png" />
     <Content Include="Content\imageco\r_box.png" />
     <Content Include="Content\imageco\Si_den.png" />
     <Content Include="Content\imageco\Si_do.png" />
+    <Content Include="Content\imageco\Si_do_fix.png" />
     <Content Include="Content\imageco\Tot_den.png" />
     <Content Include="Content\imageco\Tot_do.png" />
+    <Content Include="Content\imageco\Tot_do_fix.png" />
     <Content Include="Content\imageco\Tuong_den.png" />
     <Content Include="Content\imageco\Tuong_do.png" />
+    <Content Include="Content\imageco\Tuong_do_fix.png" />
     <Content Include="Content\imageco\Voi_den.png" />
     <Content Include="Content\imageco\Voi_do.png" />
+    <Content Include="Content\imageco\Voi_do_fix.png" />
     <Content Include="Content\imageco\Xe_den.png" />
     <Content Include="Content\imageco\Xe_do.png" />
+    <Content Include="Content\imageco\Xe_do_fix.png" />
     <Content Include="Content\image\azir.jpg" />
     <Content Include="Content\image\azirvideo_Trim.mp4" />
     <Content Include="Content\image\backgoung.jpg" />
@@ -247,10 +254,10 @@
     <Content Include="Views\Room\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutChessboard.cshtml" />
     <Content Include="Views\Chessboard\Index.cshtml" />
+    <Content Include="Views\Nguoidung\login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Nguoidung\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
