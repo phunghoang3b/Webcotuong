@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../image/azir.jpg');
+    background-size: cover;
+}
+.wrapper{
+    width: 900px;
+    margin: 20px auto;
+}
+nav{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    font-size: 16px;
+    border-radius: 5px;
+}
+nav > ul{
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li{
+    color: #fff;
+    list-style: none;
+    transition: 0.5s;
+}
+nav > ul > li > a{
+    padding: 15px 30px;
+} 
+nav > ul> li:hover{
+    background: orange;
+}
+.text{
+    position: relative;
+    text-align: center;
+    top: 120px;
+}
+.text img{
+    width: 40%;
+    height: 35%;
+    margin-left: 52px;
+}
+.text h4{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: yellow;
+}
+.text h3{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: yellow;
+}
+.text a{
+    color: white;
+    text-decoration: none;
+}
+.text a:hover{
+    color: black;
+}
+#buttonone{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+#buttonone:hover{
+    background: orange;
+    color: black;
+}
+#buttontwo{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+#buttontwo:hover{
+    background: orange;
+    color: black;
+}
+#buttonthree{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 40px;
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+#buttonthree:hover{
+    background: orange;
+    color: black;
+}
+.ads-azir img{
+    position: absolute;
+    width: 20%;
+    height: 24%;
+    top: 267px;
+    right: 67px;
+}
+.ads-azir video{
+    position: relative;
+    width: 24%;
+    top: -247px;
+    left: 72px;
+}
+/* popup dang nhap */
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content {
+    width: 385px;
+    height: 230px;
+    background-image: url('../image/backlogin.jpg');
+    border-radius: 5px;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.modal-content img{
+    width: 18%;
+    height: 30%;
+}
+input{
+    width: 65%;
+    display: block;
+    margin: 15px auto;
+}
+.modal-content input::placeholder{
+    color: #ccc;
+}
+#toggle {
+    position: absolute;
+    top: 61%;
+    right: 85px;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 16px;
+    background: url('../image/visibility.png');
+    background-size: cover;
+    cursor: pointer;
+}
+#toggle.hide {
+    background: url('../image/hide.png');
+    background-size: cover;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 25px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+/* form đăng nhập */
+#buttondn{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 33px;
+    width: 95px;
+    height: 38px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+#buttondn:hover{
+    background: orange;
+    color: black;
+}
+#buttondk{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 33px;
+    width: 95px;
+    height: 38px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1px;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+#buttondk:hover{
+    background: orange;
+    color: black;
+}
+/* popup dang ki */
+.bg-modal-dk{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content {
+    width: 385px;
+    height: 230px;
+    background-image: url('../image/backlogin.jpg');
+    border-radius: 5px;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.modal-content img{
+    width: 18%;
+    height: 30%;
+}
+input{
+    width: 65%;
+    display: block;
+    margin: 15px auto;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 25px;
+    transform: rotate(45deg);
+    cursor: pointer;
+} 
+/* form đăng kí */
+.modal-content-dk {
+    width: 385px;
+    height: 270px;
+    background-image: url('../image/backlogin.jpg');
+    border-radius: 5px;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.modal-content-dk img{
+    width: 18%;
+    height: 30%;
+}
+input{
+    width: 65%;
+    display: block;
+    margin: 15px auto;
+}
+.closedk{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 25px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cờ Tướng GOD</title>
+    <link href="~/Content/Style/introduction.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="~/Content/image/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="@Url.Action("Index", "Home")">Trang Chủ</a></li>
+                <li><a href="#">Giới Thiệu</a></li>
+                <li><a href="@Url.Action("Index", "Chessrule")">Cách Chơi</a></li>
+            </ul>
+        </nav>
+    </div>
+        @RenderBody()
+</body>
+</html>
