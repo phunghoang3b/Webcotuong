@@ -53,13 +53,20 @@
     <div class="modal-content-dk">
         <div class="closedk" style="font-weight: bold; color: white;">+</div>
         <img src="~/Content/image/Taothao.png" alt="">
-        <form action="">
-            <input type="text" placeholder="Tên đăng nhập">
-            <input type="password" placeholder="Mật khẩu">
-            <input type="password" placeholder="Nhập lại mật khẩu">
-            <button id="buttondk">ĐĂNG KÍ</button>
+        @using (Html.BeginForm("Register", "Nguoidung", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @ViewData["Loi1"]
+            <input type="text" name="Hokhach" placeholder="Họ" />
+            <input type="text" name="Tenkhach" placeholder="Tên">
+            <input type="password" name="password" placeholder="Mật khẩu">
+            <input type="password" name="repassword" placeholder="Nhập lại mật khẩu">
+            <input type="text" name="sex" placeholder="Giới tính" />
+            <h4>Ngày sinh:</h4>
+            <input type="date" name="birthday" />
+            <input type="text" name="email" placeholder="Email" />
+            <button type="submit" id="buttondk">ĐĂNG KÍ</button>
             <iframe name="iframe1" id="iframe1" src="~/Content/music/nhaccotuong.mp3" frameborder="0" border="0" cellspacing="0" style="border-style: none;width: 0; height: 0;"></iframe>
-        </form>
+        }
     </div>
 </div>
 

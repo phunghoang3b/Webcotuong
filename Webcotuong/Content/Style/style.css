@@ -280,7 +280,7 @@ input{
 /* form đăng kí */
 .modal-content-dk {
     width: 385px;
-    height: 270px;
+    height: 458px;
     background-image: url('../image/backlogin.jpg');
     border-radius: 5px;
     background-size: cover;
@@ -290,7 +290,7 @@ input{
 }
 .modal-content-dk img{
     width: 18%;
-    height: 30%;
+    height: 15%;
 }
 input{
     width: 65%;
