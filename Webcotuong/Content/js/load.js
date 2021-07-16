@@ -54,14 +54,16 @@ const tot_den2 = new pieces("tot_den", "b", "/Content/coduyluan/Tot_den.png", ne
 const tot_den3 = new pieces("tot_den", "b", "/Content/coduyluan/Tot_den.png", new Position(501, 324));
 const tot_den4 = new pieces("tot_den", "b", "/Content/coduyluan/Tot_den.png", new Position(637, 324));
 const tot_den5 = new pieces("tot_den", "b", "/Content/coduyluan/Tot_den.png", new Position(773, 324));
+
+
 //do
 const tot_do1 = new pieces("tot_do", "r", "/Content/coduyluan/Tot_do.png", new Position(229, 528));
 const tot_do2 = new pieces("tot_do", "r", "/Content/coduyluan/Tot_do.png", new Position(365, 528));
 const tot_do3 = new pieces("tot_do", "r", "/Content/coduyluan/Tot_do.png", new Position(501, 528));
 const tot_do4 = new pieces("tot_do", "r", "/Content/coduyluan/Tot_do.png", new Position(637, 528));
 const tot_do5 = new pieces("tot_do", "r", "/Content/coduyluan/Tot_do.png", new Position(773, 528));
-const phao_do1 = new pieces("phao_do", "r", "/Content/coduyluan/Phao_do.png", new Position(297, 596));
-const phao_do2 = new pieces("phao_do", "r", "/Content/coduyluan/Phao_do.png", new Position(705, 596));
+const phao_do1 = new pieces("phao_do1", "r", "/Content/coduyluan/Phao_do.png", new Position(297, 596));
+const phao_do2 = new pieces("phao_do2", "r", "/Content/coduyluan/Phao_do.png", new Position(705, 596));
 const xe_do1 = new pieces("xe_do1", "r", "/Content/coduyluan/Xe_do.png", new Position(229, 732));
 const ma_do1 = new pieces("ma_do1", "r", "/Content/coduyluan/Ma_do.png", new Position(297, 732));
 const voi_do1 = new pieces("voi_do1", "r", "/Content/coduyluan/Voi_do.png", new Position(365, 732));
@@ -80,7 +82,7 @@ function DisplayChess(){
     for(let i = 0; i<mang.length; i++)
     {
         var p = mang[i].position;
-        $(".bg").append('<img src="'+mang[i].image+'" class="'+mang[i].name+' '+mang[i].kind+'"  alt="" style="opacity:75%; position: absolute; width: 5%; left: '+p.x+'px; top: '+p.y+'px">');
+        $(".bg").append('<img src="'+mang[i].image+'" class="'+mang[i].name+' '+mang[i].kind+'"  alt="" style="position: absolute; width: 5%; left: '+p.x+'px; top: '+p.y+'px">');
         Drag(mang[i].name);
     }
 }
